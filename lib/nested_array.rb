@@ -36,9 +36,8 @@ end
 
 
 def matrix_lookup(matrix, row, column)
-matrix[row][column]
+matrix.sort![row][column]
 end
-matrix_lookup(assembled_matrix, 1, 1)
 # ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"]
 # ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
 def matrix_update(matrix, row, column, new_value)
