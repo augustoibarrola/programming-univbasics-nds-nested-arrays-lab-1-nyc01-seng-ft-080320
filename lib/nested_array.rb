@@ -36,7 +36,7 @@ end
 
 
 def matrix_lookup(matrix, row, column)
-matrix_lookup[matrix][row][column]
+matrix[row][column]
 end
 # ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"]
 # ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
