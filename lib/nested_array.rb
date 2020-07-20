@@ -36,7 +36,11 @@ end
 
 
 def matrix_lookup(matrix, row, column)
-  matrix_lookup = matrix[row][column]
+if matrix = sorted_matrix then
+  matrix[row][column]
+elsif matrix = assembled_matrix then
+  matrix[row][column]
+end
 end
 
 def matrix_update(matrix, row, column, new_value)
