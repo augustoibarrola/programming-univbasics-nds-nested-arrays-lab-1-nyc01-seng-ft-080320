@@ -28,7 +28,7 @@ end
 # Make sure conventional produce is first, on the 'zeroth' / 'bottom' shelf
 
 def sorted_matrix
-storage_room = [CONVENTIONAL_PRODUCE.sort!, ORGANIC_PRODUCE.sort!]
+storage_room = [CONVENTIONAL_PRODUCE.sort, ORGANIC_PRODUCE.sort]
 end
 # Using Array literal syntax only, build another nested array that
 # uses the arrays of conventional and organic produce as before.
